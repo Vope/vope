@@ -10,9 +10,7 @@ apt install ./google-chrome.deb
 rm google-chrome.deb
 
 # Postman
-wget -O postman.tar.gz https://dl.pstmn.io/download/latest/linux64
-sudo -u vope tar -xf postman.tar.gz -C /home/vope/
-rm postman.tar.gz
+snap install postman
 
 # Jetbrains Toolbox
 wget -O jetbrains-toolbox.tar.gz https://download-cf.jetbrains.com/toolbox/jetbrains-toolbox-1.17.7139.tar.gz
